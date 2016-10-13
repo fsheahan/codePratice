@@ -12,7 +12,7 @@ namespace ProjectEuler
 		private int SumDivisbleBy(int n, int p){
 			return n*(p/n)*((p/n)+1)/2;
 		}
-		/*Project Euler #2
+		/*Project Euler #2 brute force
 		public static void Main (string[] args)
 		{
 			long fib1 = 1;
