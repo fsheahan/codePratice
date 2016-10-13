@@ -2,9 +2,17 @@
 
 namespace ProjectEuler
 {
-	//Project Euler Q2
 	class MainClass
 	{
+		//Project Euler #1 improved
+		Public void Solve(){
+			result = SumDivisbleBy(3,999) + SumDivisbleBy(5,999) - SumDivisbleBy(15,999);
+		}
+
+		private int SumDivisbleBy(int n, int p){
+			return n*(p/n)*((p/n)+1)/2;
+		}
+		/*Project Euler #2
 		public static void Main (string[] args)
 		{
 			long fib1 = 1;
@@ -21,7 +29,7 @@ namespace ProjectEuler
 				fib2 = fib1;
 				fib1 = result;
 			}
-
+		*/
 
 			Console.WriteLine (result);
 		}
