@@ -33,4 +33,3 @@ function sumOfEven(limit) {
 }
 
 console.log(sumOfEven(4e6));
-*/
